@@ -9,3 +9,7 @@ o branco = ffffff */
   --roxo: #5b5cf9;
   --amarelo: #ffc83c;
 }
+
+section, h1, h2 {
+  color: var(--amarelo);
+}
