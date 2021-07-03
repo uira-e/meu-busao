@@ -1,0 +1,15 @@
+/*
+Esquema de cores do site.
+
+Roxo ="#5b5cf9"
+amarelo ="#5b5cf9"
+o branco = ffffff */
+
+:root {
+  --roxo: #5b5cf9;
+  --amarelo: #ffc83c;
+}
+
+section, h1, h2 {
+  color: var(--amarelo);
+}
