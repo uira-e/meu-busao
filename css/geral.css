@@ -5,6 +5,14 @@ Roxo ="#5b5cf9"
 amarelo ="#5b5cf9"
 o branco = ffffff */
 
+body{
+  font-family: 'Manrope', sans-serif;
+}
+
+img{
+  height: 100%;
+}
+
 :root {
   --roxo: #5b5cf9;
   --amarelo: #ffc83c;
@@ -12,4 +20,8 @@ o branco = ffffff */
 
 section, h1, h2 {
   color: var(--amarelo);
+}
+
+a{
+  text-decoration: none;
 }

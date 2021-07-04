@@ -1,0 +1,67 @@
+
+
+
+/* HEADER */
+header{
+    background-color: #ffc83c;
+    padding: 26px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#unica{
+    margin: 31px;
+}
+
+.linksMeioHeader{
+    text-decoration: none;
+    color:black;
+    font-size: 23px;
+    font-family: 'Manrope', sans-serif;
+  
+}
+
+#linkappStore{
+    padding-left: 12px;
+}
+
+/* COMECO PRIMEIRA SECTION*/
+#textoTelefone{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#textoTelefone p{
+
+}
+
+/* COMECO SEGUNDA SECTION*/
+
+
+
+/* COMECO TERCEIRA SECTION*/
+li img{
+    width: 20px;
+}
+
+
+#onibusinho{
+    height: 100px;
+}
+
+#imagemFundoAmarela{
+    width: 100%;
+}
+
+
+/* COMECO QUARTA SECTION*/
+
+#imagensFinalPag{
+    justify-content: right;
+}
+
