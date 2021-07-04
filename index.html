@@ -8,86 +8,110 @@
   <!-- Estilos CSS -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/geral.css">
-  <link rel="stylesheet" href="css/conteudo.css">
-  <link rel="stylesheet" href="css/apresentacao.css">
   <link rel="stylesheet" href="css/funcionalidades.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Fonte Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
   <!--Titulo do Site -->
   <title>Meu Busão</title>
 </head>
 
 <body>
-  <div class="conteudo">
+  <div>
 
     <header>
       <!-- MENU NAVEGACAO  -->
       <nav>
-        <!--  IMAGEM LINK TECNOGUETO  -->
-        <a href="#"><img src="img/tecnogueto.png" alt="Logo Tecnogueto"></a>
+        <div class="conteudo conteudo-header">
 
-        <!-- LINKS DO MEIO DO SITE  -->
-        <div>
-          <a class="linksMeioHeader" id="unica" href="#">NOTICIAS</a>
-          <a class="linksMeioHeader" href="#">SOBRE NÓS</a>
-        </div>
-        <!-- IMAGEN DOS LINKS PARA AS LOJAS  -->
-        <div >
-          <a href="https://play.google.com/store?hl=pt_BR&gl=US" target="_blank">
-            <img src="img/botao-google-play.png" alt="Loja da Google de Aplicatavos">
-          </a>
-          <a id="linkappStore" href="https://www.apple.com/br/shop" target="_blank">
-            <img src="img/botao-apple-store.png" alt="Loja da Apple de Aplicatavos">
-          </a>
+
+          <!--  IMAGEM LINK TECNOGUETO  -->
+          <a href="#"><img src="img/tecnogueto.png" alt="Logo Tecnogueto"></a>
+
+          <!-- LINKS DO MEIO DO SITE  -->
+          <div>
+            <a class="linksMeioHeader" id="unica" href="#">NOTICIAS</a>
+            <a class="linksMeioHeader" href="#">SOBRE NÓS</a>
+          </div>
+          <!-- IMAGEN DOS LINKS PARA AS LOJAS  -->
+          <div class="botoes-loja">
+            <a href="https://play.google.com/store?hl=pt_BR&gl=US" target="_blank">
+              <img src="img/botao-google-play.png" alt="Loja da Google de Aplicatavos">
+            </a>
+            <a id="linkappStore" href="https://www.apple.com/br/shop" target="_blank">
+              <img src="img/botao-apple-store.png" alt="Loja da Apple de Aplicatavos">
+            </a>
+          </div>
         </div>
       </nav>
     </header>
 
     <!-- PRIMEIRA SECTION-->
     <section id="apresentacao">
-      <!-- IMAGEM  NOME LOGO  -->
-      <figure id="imagemNomeLogo">
-        <img src="img/nome-logo.png" alt="Nome do WebSite Meu Busão">
-      </figure>
-
-      <div id="textoTelefone">
-        <p>iNFORMAÇÕES EM TEMPO REAL DO SEU BUSÃO, DIRETO NO SEU CELULAR</p>
-
-        <!-- IMAGEM TELEFONE  -->
-        <figure id="imagemTelefone">
-          <img src="img/imagemTele.png" alt="Imagem de um smartphone com a logo do Meu Busão">
+      <div class="conteudo">
+        <!-- IMAGEM  NOME LOGO  -->
+        <figure id="imagemNomeLogo">
+          <img src="img/nome-logo.png" alt="Nome do WebSite Meu Busão">
         </figure>
+
+        <div id="textoTelefone">
+          <p>iNFORMAÇÕES EM TEMPO REAL DO SEU BUSÃO, DIRETO NO SEU CELULAR</p>
+
+          <!-- IMAGEM TELEFONE  -->
+          <figure id="imagemTelefone">
+            <img src="img/imagemTele.png" alt="Imagem de um smartphone com a logo do Meu Busão">
+          </figure>
+        </div>
       </div>
     </section>
 
 
     <!-- SEGUNDA SECTION -->
     <section class="funcionalidades">
-      <h2>Em um único app você encontra</h2>
-
       <div>
-        <!-- LISTA FUNCIONALIDADES  -->
-        <ul>
-          <li> <img src="img/iconeMao.png" alt="Ícone de uma mão"> Denuncia contra assédio</li>
-          <li> <img src="img/iconeChat.png" alt="Ícone de um chat"> Chat com passageiros</li>
-          <li> <img src="img/iconeRelogio.png" alt="Ícone de um relógio"> Horários e Rotas dos Ônibus</li>
-        </ul>
-        <figure>
-          <img id="onibusinho" src="img/onibusinho.png" alt="Imagem de um onibus amarelo">   
-        </figure>
+        <h2>Em um único app você encontra</h2>
+
+        <div class="colunas conteudo-funcionalidades">
+          <!-- LISTA FUNCIONALIDADES  -->
+          <div class="funcionalidades-texto">
+            <ul>
+              <li> <img src="img/iconeMao.png" alt="Ícone de uma mão"> Denuncia contra assédio</li>
+              <li> <img src="img/iconeChat.png" alt="Ícone de um chat"> Chat com passageiros</li>
+              <li> <img src="img/iconeRelogio.png" alt="Ícone de um relógio"> Horários e Rotas dos Ônibus</li>
+            </ul>
+          </div>
+
+          <div>
+            <figure>
+              <img id="onibusinho" src="img/onibusinho.png" alt="Imagem de um onibus amarelo">
+            </figure>
+          </div>
+
+        </div>
       </div>
+
     </section>
 
     <!-- TERCEIRA SECTION-->
-    <section>
-      <figure>  <!-- Coloquei essa imagem com imagem, não background, pq não tinha nada pra por em cima dela, não ia conseguir fazer as telas de baixo -->
-        <img id="imagemFundoAmarela" src="img/imagemFundoAmarela.png" alt="Imagem de fundo Amarela"> 
+    <section class="secao-chat">
+      <figure>
+        <div class="conteudo">
+          <div class="colunas">
+            <div class="celular-linhas">
+              <img src="img/celular-linhas.png" alt="imagem vetorial de um celular">
+            </div>
+            <div class="texto-secao-chat">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
       </figure>
     </section>
-  
+
     <!-- QUARTA SECTION-->
     <section>
       <p>Salve o site como
