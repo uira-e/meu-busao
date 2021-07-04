@@ -44,13 +44,12 @@ nav {
 
 /* COMECO PRIMEIRA SECTION*/
 
-#apresentacao {    
+#apresentacao {
     background-image: url('../img/backImg.png');
     background-size: cover;
     padding-top: 2rem;
     height: 100vh;
 }
-
 
 #imagemNomeLogo {
     display: flex;
@@ -71,6 +70,7 @@ nav {
 }
 
 /* COMECO SEGUNDA SECTION*/
+
 .funcionalidades {
     height: 70vh;
 }
@@ -92,7 +92,7 @@ nav {
     margin-right: 0;
 }
 
-.funcionalidades-texto {
+.funcionalidades-texto, .texto-secao-chat {
     font-size: 2.5rem;
     width: 45%;
     margin: auto;
@@ -104,7 +104,7 @@ li img {
     margin-right: .55rem;
 }
 
-#onibusinho  {
+#onibusinho {
     height: 33rem;
 }
 
@@ -117,19 +117,37 @@ li img {
 .secao-chat {
     background-image: url("../img/imagemFundoAmarela.png");
     background-size: cover;
+    padding: 3rem 0;
 }
 
 .celular-linhas img {
-width: 90%;
+    height: 50rem;
 }
 
 .texto-secao-chat {
-    width: 60%;
+    width: 80%;
     color: var(--roxo);
+}
+
+.texto-secao-chat p {
+    text-align: right;
 }
 
 /* COMECO QUARTA SECTION*/
 
 #imagensFinalPag {
     justify-content: right;
+}
+
+#imagemTeleComApp {
+    height: 30rem;
+    padding-top: 3rem;
+}
+
+.baixar-app p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: left;
+}
+
 }
